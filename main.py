@@ -63,7 +63,6 @@ def end_game():
     end.destroy()
     Label(master=game, bg="black", width=2, height=1).grid(row=int(player_grid[-1][0]),
                                                            column=int(player_grid[-1][1]))  # empty_map()
-    Label(master=game, bg="grey", width=2, height=1).grid(row=0, column=0)
     score_var.set(f"score : {0}")
     score = 0
     player_grid = [[size / 2, size / 2 - 1]]

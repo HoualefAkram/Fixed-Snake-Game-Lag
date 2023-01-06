@@ -23,7 +23,6 @@ for i, j in opts:
     elif i == "-v":
         speed = int(j)
 
-print(f"opts = {opts} , args = {args}")
 for up in range(size):  # making the border
     Label(master=game, bg="grey", width=2, height=1).grid(row=0, column=up)
 for down in range(size):  # making the borders
